@@ -7,7 +7,7 @@
     <!-- BASICS -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>GREEN responsive bootstraap template</title>
+    <title>Job seeker portfolio app | create your own portfolio</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/assets/css/isotope.css" media="screen" />
@@ -48,8 +48,8 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
                     <li class="active"><a href="#home">Home</a></li>
-                    <li><a href="#section-about">About</a></li>
                     <li><a href="#services">How to</a></li>
+                    <li><a href="#section-about">About</a></li>
                     <li><a href="#section-contact">Feed back</a></li>
                     <li><a class="" href="javascript:;" data-toggle="modal" data-target="#loginModal"> Login</a></li>
                 </ul>
@@ -142,105 +142,8 @@
     </div><!--/#slider-->
 </section>
 
-
-<!--about-->
-<section id="section-about">
-    <div class="container">
-        <div class="about">
-            <div class="row mar-bot40">
-                <div class="col-md-offset-3 col-md-6">
-                    <div class="title">
-                        <div class="wow bounceIn">
-                            <h2 class="section-heading animated" data-animation="bounceInUp">ZR Software solution</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-
-                <div class="row-slider">
-                    <div class="col-lg-6 mar-bot30">
-                        <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
-                            <div class="slides" data-group="slides">
-                                <ul>
-
-                                    <div class="slide-body" data-group="slide">
-                                        <li><img alt="" class="img-responsive" src="/assets/img/9.jpg" width="100%" height="350"/></li>
-                                        <li><img alt="" class="img-responsive" src="/assets/img/10.jpg" width="100%" height="350"/></li>
-                                        <li><img alt="" class="img-responsive" src="/assets/img/11.jpg" width="100%" height="350"/></li>
-                                        <li><img alt="" class="img-responsive" src="/assets/img/11.jpg" width="100%" height="350"/></li>
-
-                                    </div>
-                                </ul>
-                                <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
-                                <a class="slider-control right" href="#" data-jump="next"><i class="fa fa-angle-right fa-2x"></i></a>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 ">
-                        <div class="company mar-left10">
-                            <h4>We are a solution of your all outsourcing needs, from <span>Pakistan </span> in all over the world</h4>
-                            <p>
-                                This portfolio app is developed by ZR Software solution, using this app you can create your own job portfoleo,
-                                Get conntected with this app, fallow simple steps and you have your own portfolio with your SKILLS and PROJECTS.
-                            </p>
-                        </div>
-                        <div class="list-style">
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-6 col-xs-12">
-                                    <ul>
-                                        <li>Decide on the format</li>
-                                        <li>Look at your skills</li>
-                                        <li>STAR behavioral examples</li>
-                                        <li>Sample solution(s)</li>
-                                    </ul>
-                                </div>
-                                <div class="col-lg-6 col-sm-6 col-xs-12">
-                                   <p>
-
-                                       Decide on the format. Depending on your career/job outlook, your career portfolio will take on different looks.
-
-                                   </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-<!--/about-->
-
-<!-- spacer section:testimonial -->
-<section id="testimonials-3" class="section" data-stellar-background-ratio="0.5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="align-center">
-                    <div class="testimonial pad-top40 pad-bot40 clearfix">
-                        <h5>
-                            An interview portfolio consists of six main parts: an introduction, a professional background summary, STAR behavioral examples, awards and recommendations, sample solution(s), and a closing page. While the content will be similar to what’s on your resume, the portfolio takes it a step further to “show and tell” your skills with specific examples. Your goal is to get the hiring manager to visualize you solving problems for him.
-                        </h5>
-                        <br/>
-                        <span class="author">&mdash; ZR Software solution <a href="#">hr@zr-Software-solution</a></span>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
 <!-- services -->
-<section id="services" class="section pad-bot5 bg-white appear clearfix">
+<section id="services" class="section pad-bot5 bg-white">
     <div class="container">
         <div class="row mar-bot5">
             <div class="col-md-offset-3 col-md-6">
@@ -370,6 +273,121 @@
 </section>
 <!--/services-->
 
+<!-- spacer section:testimonial -->
+<section id="testimonials-3" class="section appear clearfix" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="align-center">
+                    <div class="testimonial pad-top40 pad-bot40 clearfix">
+                        <h5>
+                            An interview portfolio consists of six main parts: an introduction, a professional background summary, STAR behavioral examples, awards and recommendations, sample solution(s), and a closing page. While the content will be similar to what’s on your resume, the portfolio takes it a step further to “show and tell” your skills with specific examples. Your goal is to get the hiring manager to visualize you solving problems for him.
+                        </h5>
+                        <br/>
+                        <span class="author">&mdash; ZR Software solution <a href="#">hr@zr-Software-solution</a></span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!--about-->
+<section id="section-about" class="appear clearfix">
+    <div class="container">
+        <div class="about">
+            <div class="row mar-bot40">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="title">
+                        <div class="wow bounceIn">
+                            <h2 class="section-heading animated" data-animation="bounceInUp">ZR Software solution</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="row-slider">
+                    <div class="col-lg-6 mar-bot30">
+                        <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
+                            <div class="slides" data-group="slides">
+                                <ul>
+
+                                    <div class="slide-body" data-group="slide">
+                                        <li><img alt="" class="img-responsive" src="/assets/img/9.jpg" width="100%" height="350"/></li>
+                                        <li><img alt="" class="img-responsive" src="/assets/img/10.jpg" width="100%" height="350"/></li>
+                                        <li><img alt="" class="img-responsive" src="/assets/img/11.jpg" width="100%" height="350"/></li>
+                                        <li><img alt="" class="img-responsive" src="/assets/img/11.jpg" width="100%" height="350"/></li>
+
+                                    </div>
+                                </ul>
+                                <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
+                                <a class="slider-control right" href="#" data-jump="next"><i class="fa fa-angle-right fa-2x"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 ">
+                        <div class="company mar-left10">
+                            <h4>We are a solution of your all outsourcing needs, from <span>Pakistan </span> in all over the world</h4>
+                            <p>
+                                This portfolio app is developed by ZR Software solution, using this app you can create your own job portfoleo,
+                                Get conntected with this app, fallow simple steps and you have your own portfolio with your SKILLS and PROJECTS.
+                            </p>
+                        </div>
+                        <div class="list-style">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6 col-xs-12">
+                                    <ul>
+                                        <li>Decide on the format</li>
+                                        <li>Look at your skills</li>
+                                        <li>STAR behavioral examples</li>
+                                        <li>Sample solution(s)</li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-6 col-sm-6 col-xs-12">
+                                   <p>
+
+                                       Decide on the format. Depending on your career/job outlook, your career portfolio will take on different looks.
+
+                                   </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!--/about-->
+<!-- spacer section:testimonial -->
+<section id="testimonials" class="section" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="align-center">
+                    <div class="testimonial pad-top40 pad-bot40 clearfix">
+                        <h5>
+                            Nunc velit risus, dapibus non interdum quis, suscipit nec dolor. Vivamus tempor tempus mauris vitae fermentum. In vitae nulla lacus. Sed sagittis tortor vel arcu sollicitudin nec tincidunt metus suscipit.Nunc velit risus, dapibus non interdum.
+                        </h5>
+                        <br/>
+                        <span class="author">&mdash; Jouse Manuel / www.jouse-manuel.com</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</section>
 <!-- contact -->
 <section id="section-contact" class="section appear clearfix">
     <div class="container">
@@ -463,7 +481,7 @@
 <script src="/assets/js/main.js"></script>
 <script src="/assets/js/wow.min.js"></script>
 <script>wow = new WOW({}).init();</script>
-<script src="contactform/contactform.js"></script>
+<script src="/assets/contactform/contactform.js"></script>
 
 
 
