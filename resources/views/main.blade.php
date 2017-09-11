@@ -41,8 +41,8 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="fa fa-bars color-white"></span>
                 </button>
-                <h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">
-                        <img src="/assets/img/logo.jpg" style="height:60px; opacity:0.4;filter:alpha(opacity=40);">
+                <h1><a class="navbar-brand" href="#home" data-0="line-height:90px;" data-300="line-height:50px;">
+                        <img src="/assets/img/logo1.jpg" style="height:60px; opacity:0.4;filter:alpha(opacity=40);">
                     </a></h1>
             </div>
             <div class="navbar-collapse collapse">
@@ -86,10 +86,14 @@
                             <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
                                 <form class="form-inline">
                                     <div class="form-group">
-                                        <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required">Signin</button>
+                                        <a class="" href="javascript:;" data-toggle="modal" data-target="#loginModal">
+                                            <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Signin</button>
+                                        </a>
                                     </div>
                                     <div class="form-group">
-                                        <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">Signup</button>
+                                        <a class="" href="javascript:;" data-toggle="modal" data-target="#signupModal">
+                                            <button type="livedemo" name="purchase" class="btn btn-primary btn-lg">Signup</button>
+                                        </a>
                                     </div>
                                 </form>
                             </div>
@@ -111,10 +115,14 @@
                             <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.6s">
                                 <form class="form-inline">
                                     <div class="form-group">
-                                        <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Signin</button>
+                                        <a class="" href="javascript:;" data-toggle="modal" data-target="#loginModal">
+                                            <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Signin</button>
+                                        </a>
                                     </div>
                                     <div class="form-group">
-                                        <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Signup</button>
+                                        <a class="" href="javascript:;" data-toggle="modal" data-target="#signupModal">
+                                            <button type="livedemo" name="purchase" class="btn btn-primary btn-lg">Signup</button>
+                                        </a>
                                     </div>
                                 </form>
                             </div>
@@ -404,10 +412,6 @@
     </div>
 </section>
 
-@include('layout.user-login')
-@include('layout.user-signup')
-
-
 <section id="footer" class="section footer">
     <div class="container">
         <div class="row animated opacity mar-bot0" data-andown="fadeIn" data-animation="animation">
@@ -461,5 +465,9 @@
 <script>wow = new WOW({}).init();</script>
 <script src="contactform/contactform.js"></script>
 
+
+
+@include('layout.user-login')
+@include('layout.user-signup')
 </body>
 </html>

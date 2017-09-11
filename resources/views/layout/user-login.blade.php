@@ -34,15 +34,14 @@
                         <input type="password" name="password" class="form-control" value="{{ old('email') }}" required>
                     </div>
                     <div class="form-group">
-                        <input type="btn" name="submit" value="Signin" class="form-control btn btn-primary btn-block"
-                               style="padding-top: 10px;">
+                      <button class="form-control btn btn-primary btn-block">Signin</button>
                     </div>
                     <div class="form-group">
                         <a href="{{ route('redirect' ) }}">
-                            <img src="assets/img/fb.png" class="fbbtn">
+                            <img src="assets/img/fb.png" alt="Click to faceBook login" class="fbbtn">
                         </a>
                         <a href="{{ route('redirectt' ) }}">
-                            <img src="assets/img/g.png" class="gbtn">
+                            <img src="assets/img/g.png" alt="Click to G+ login" class="gbtn">
                         </a>
                         {{--<a href="redirect">FB Login</a>
                         <p class="pull-right">

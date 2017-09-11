@@ -50,8 +50,7 @@
                     </div>
 
                     <div class="form-group">
-                        <input  type="btn" name="submit" value="Signup" class="form-control btn btn-primary btn-block"
-                                style="padding-top: 10px;">
+                        <button class="form-control btn btn-primary btn-block">Signin</button>
                     </div>
 
 
