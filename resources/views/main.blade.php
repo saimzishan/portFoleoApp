@@ -50,10 +50,8 @@
                     <li class="active"><a href="#home">Home</a></li>
                     <li><a href="#section-about">About</a></li>
                     <li><a href="#services">How to</a></li>
-                    <li><a href="#team">Team</a></li>
-                   {{-- <li><a href="#line-pricing">Pricing</a></li>--}}
-                    <li><a href="#section-works">Portfolio</a></li>
                     <li><a href="#section-contact">Feed back</a></li>
+                    <li><a class="" href="javascript:;" data-toggle="modal" data-target="#loginModal"> Login</a></li>
                 </ul>
             </div><!--/.navbar-collapse -->
         </div>
@@ -88,10 +86,10 @@
                             <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.9s">
                                 <form class="form-inline">
                                     <div class="form-group">
-                                        <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required">Live Demo</button>
+                                        <button type="livedemo" name="Live Demo" class="btn btn-primary btn-lg" required="required">Signin</button>
                                     </div>
                                     <div class="form-group">
-                                        <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">Get Now</button>
+                                        <button type="getnow" name="Get Now" class="btn btn-primary btn-lg" required="required">Signup</button>
                                     </div>
                                 </form>
                             </div>
@@ -113,10 +111,10 @@
                             <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.6s">
                                 <form class="form-inline">
                                     <div class="form-group">
-                                        <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Live Demo</button>
+                                        <button type="livedemo" name="purchase" class="btn btn-primary btn-lg" required="required">Signin</button>
                                     </div>
                                     <div class="form-group">
-                                        <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Get Now</button>
+                                        <button type="getnow" name="subscribe" class="btn btn-primary btn-lg" required="required">Signup</button>
                                     </div>
                                 </form>
                             </div>
@@ -304,442 +302,69 @@
             </div>
 
         </div>
+        <div class="row mar-bot40">
+            <div class="col-lg-4" >
+                <div class="wow bounceIn">
+                    <div class="align-center">
+
+                        <div class="wow rotateIn">
+                            <div class="service-col">
+                                <div class="service-icon">
+                                    <figure><img src="/assets/img/look.webp" style="height:135px; width: 135px"></figure>
+                                </div>
+                                <h2><a href="#">Look at yourself</a></h2>
+                                <p>
+                                    Look at yourself the way prospective employer would look at you. You want your potential employer to believe that you are the answer to their employment dilemma.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4" >
+                <div class="align-center">
+                    <div class="wow bounceIn">
+
+                        <div class="wow rotateIn">
+                            <div class="service-col">
+                                <div class="service-icon">
+                                    <figure><img src="/assets/img/look2.webp" style="height:135px; width: 135px"></figure>
+                                </div>
+                                <h2><a href="#">Choose items </a></h2>
+                                <p>
+
+                                    Choose items to show that showcase your skills. They should be the very best examples of your work.                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4" >
+                <div class="align-center">
+                    <div class="wow bounceIn">
+                        <div class="service-col">
+                            <div class="service-icon">
+                                <figure><img src="/assets/img/look3.webp" style="height:135px; width: 135px"></figure>
+                            </div>
+                            <h2><a href="#">Choose work samples</a></h2>
+                            <p>
+                                Choose work samples that are relevant to the job you're seeking. If you're looking in multiple fields, have multiple portfolios.                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
     </div>
 </section>
 <!--/services-->
 
-<!-- spacer section:testimonial -->
-<section id="testimonials" class="section" data-stellar-background-ratio="0.5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="align-center">
-                    <div class="testimonial pad-top40 pad-bot40 clearfix">
-                        <h5>
-                            Nunc velit risus, dapibus non interdum quis, suscipit nec dolor. Vivamus tempor tempus mauris vitae fermentum. In vitae nulla lacus. Sed sagittis tortor vel arcu sollicitudin nec tincidunt metus suscipit.Nunc velit risus, dapibus non interdum.
-                        </h5>
-                        <br/>
-                        <span class="author">&mdash; Jouse Manuel / www.jouse-manuel.com</span>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- team -->
-<section id="team" class="team-section appear clearfix">
-    <div class="container">
-
-        <div class="row mar-bot10">
-            <div class="col-md-offset-3 col-md-6">
-                <div class="section-header">
-                    <div class="wow bounceIn">
-
-                        <h2 class="section-heading animated" data-animation="bounceInUp">Our Team</h2>
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row align-center mar-bot45">
-            <div class="col-md-4">
-                <div class="wow bounceIn" data-animation-delay="4.8s">
-                    <div class="team-member">
-                        <div class="profile-picture">
-                            <figure><img src="/assets/img/members3.jpg" alt=""></figure>
-                            <div class="profile-overlay"></div>
-                            <div class="profile-social">
-                                <div class="icons-wrapper">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-detail">
-                            <h4>Ron Evgeniy</h4>
-                            <span>User experiences</span>
-                        </div>
-                        <div class="team-bio">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci accusantium minus asperiores.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-
-                <div class="wow bounceIn">
-                    <div class="team-member">
-                        <div class="profile-picture">
-                            <figure><img src="/assets/img/members1.jpg" alt=""></figure>
-                            <div class="profile-overlay"></div>
-                            <div class="profile-social">
-                                <div class="icons-wrapper">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-detail">
-                            <h4>Alexander Chernov</h4>
-                            <span>Web developer</span>
-                        </div>
-                        <div class="team-bio">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci accusantium minus asperiores.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="wow bounceIn">
-                    <div class="team-member">
-                        <div class="profile-picture">
-                            <figure><img src="/assets/img/members2.jpg" alt=""></figure>
-                            <div class="profile-overlay"></div>
-                            <div class="profile-social">
-                                <div class="icons-wrapper">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="team-detail">
-                            <h4>Jose Manuel</h4>
-                            <span>Web designer</span>
-                        </div>
-                        <div class="team-bio">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, fugiat, harum, adipisci accusantium minus asperiores.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section>
-<!-- /team -->
-
-<!-- spacer section:stats -->
-<section id="parallax1" class="section pad-top40 pad-bot40 mar-bot20" data-stellar-background-ratio="0.5">
-    <div class="container ">
-        <div class="align-center pad-top40 pad-bot40">
-            <h4 class="color-white pad-top50">Indoctum accusamus comprehensam</h4>
-            <p class="color-white">Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed odio dui. Fusce dapibus, tellus ac cursus etiam porta sem malesuada magna mollis euismod. commodo, Faccibus mollis interdum. Morbi leo risus, porta ac, vestibulum at eros.Feugiat accumsan Suspendisse eget Duis faucibus tempus pede pede augue pede. Dapibus mollis
-                dignissim suscipit porta justo nisl amet Nunc quis semper.</p>
-        </div>
-    </div>
-</section>
-{{--<section id="line-pricing" class="line-section line-center">
-    <div class="container pad-top50">
-        <div class="row mar-bot10 ">
-            <div class="col-md-offset-3 col-md-6">
-                <div class="section-header">
-                    <div class="wow bounceIn">
-
-                        <h2 class="section-heading animated" data-animation="bounceInUp">Pricing Table</h2>
-                        <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="line-wrap">
-            <div class="line-pricing-table">
-                <div class="pricing-table-wrap" data-scrollreveal="enter top over 0.5s after 0.3s">
-                    <ul>
-                        <li class="line-head-row">
-                            Free
-                        </li>
-                        <li class="line-price-row">
-                            <p>
-                                <span class="symbol">$</span>
-                                <span>0</span>
-                            </p>
-                            <small>Ideal for beginners</small>
-                        </li>
-                        <li>
-                            1 theme included
-                        </li>
-                        <li>
-                            1 year of theme updates
-                        </li>
-                        <li>
-                            20% off future purchases
-                        </li>
-                        <li class="line-btn-row">
-                            <a href="" class="line-btn light">Get Started</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="pricing-table-wrap" data-scrollreveal="enter top over 0.5s after 0.5s">
-                    <ul class="line-highlight">
-                        <li class="line-head-row">
-                            Premium
-                        </li>
-                        <li class="line-price-row">
-                            <p>
-                                <span class="symbol">$</span>
-                                <span>300</span>
-                            </p>
-                            <small>Per user / month</small>
-                        </li>
-                        <li>
-                            24 themes included
-                        </li>
-                        <li>
-                            Lifetime of premium support
-                        </li>
-                        <li>
-                            Access all new themes
-                        </li>
-                        <li class="line-btn-row">
-                            <a href="" class="line-btn green">Get Started</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="pricing-table-wrap" data-scrollreveal="enter top over 0.5s after 0.7s">
-                    <ul>
-                        <li class="line-head-row">
-                            Standard
-                        </li>
-                        <li class="line-price-row">
-                            <p>
-                                <span class="symbol">$</span>
-                                <span>150</span>
-                            </p>
-                            <small>Per user / month</small>
-                        </li>
-                        <li>
-                            12 themes included
-                        </li>
-                        <li>
-                            1 year of theme updates
-                        </li>
-                        <li>
-                            Access all new themes
-                        </li>
-                        <li class="line-btn-row">
-                            <a href="" class="line-btn light">Get Started</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>--}}
-
-<!-- spacer section:testimonial -->
-<section id="testimonials-2" class="section" data-stellar-background-ratio="0.5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="align-center">
-                    <div class="testimonial pad-top40 pad-bot40 clearfix">
-                        <h5>
-                            Nunc velit risus, dapibus non interdum quis, suscipit nec dolor. Vivamus tempor tempus mauris vitae fermentum. In vitae nulla lacus. Sed sagittis tortor vel arcu sollicitudin nec tincidunt metus suscipit.Nunc velit risus, dapibus non interdum.
-                        </h5>
-                        <br/>
-                        <span class="author">&mdash; Jouse Manuel / www.jouse-manuel.com</span>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-
-<!-- section works -->
-<section id="section-works" class="section appear clearfix">
-    <div class="container">
-
-        <div class="row mar-bot40">
-            <div class="col-md-offset-3 col-md-6">
-                <div class="section-header">
-                    <h2 class="section-heading animated" data-animation="bounceInUp">Portfolio</h2>
-                    <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.</p>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <nav id="filter" class="col-md-12 text-center">
-                <ul>
-                    <li><a href="#" class="current btn-theme btn-small" data-filter="*">All</a></li>
-                    <li><a href="#"  class="btn-theme btn-small" data-filter=".webdesign" >Web Design</a></li>
-                    <li><a href="#"  class="btn-theme btn-small" data-filter=".photography">Photography</a></li>
-                    <li ><a href="#" class="btn-theme btn-small" data-filter=".print">Print</a></li>
-                </ul>
-            </nav>
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="portfolio-items isotopeWrapper clearfix" id="3">
-
-                        <article class="col-md-4 isotopeItem webdesign">
-                            <div class="portfolio-item">
-                                <div class="wow rotateInUpLeft" data-animation-delay="4.8s">
-                                    <img src="/assets/img/portfolio/1.jpg" alt="welcome" />
-                                </div>
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <h5><a href="#">Project name 1</a></h5>
-                                        <a href="/assets/img/portfolio/1.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="col-md-4 isotopeItem photography">
-                            <div class="portfolio-item">
-                                <div class="wow bounceIn">
-                                    <img src="/assets/img/portfolio/2.jpg" alt="" />
-                                </div>
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <h5><a href="#">Project name 2</a></h5>
-                                        <a href="/assets/img/portfolio/2.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-
-                        <article class="col-md-4 isotopeItem photography">
-                            <div class="portfolio-item">
-                                <div class="wow rotateInDownRight">
-                                    <img src="/assets/img/portfolio/3.jpg" alt="" />
-                                </div>
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <h5><a href="#">Project name 3</a></h5>
-                                        <a href="/assets/img/portfolio/3.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="col-md-4 isotopeItem print">
-                            <div class="portfolio-item">
-                                <div class="wow rotateInUpLeft">
-                                    <img src="/assets/img/portfolio/4.jpg" alt="" />
-                                </div>
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <h5><a href="#">Project name 4</a></h5>
-                                        <a href="/assets/img/portfolio/4.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="col-md-4 isotopeItem photography">
-                            <div class="portfolio-item">
-                                <div class="wow bounceIn">
-                                    <img src="/assets/img/portfolio/5.jpg" alt="" />
-                                </div>
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <h5><a href="#">Project name 5</a></h5>
-                                        <a href="/assets/img/portfolio/5.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="col-md-4 isotopeItem webdesign">
-                            <div class="portfolio-item">
-                                <div class="wow rotateInDownRight">
-                                    <img src="/assets/img/portfolio/6.jpg" alt="" />
-                                </div>
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <h5><a href="#">Project name 6</a></h5>
-                                        <a href="/assets/img/portfolio/6.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="col-md-4 isotopeItem print">
-                            <div class="portfolio-item">
-                                <div class="wow rotateInUpLeft">
-                                    <img src="/assets/img/portfolio/7.jpg" alt="" />
-                                </div>
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <h5><a href="#">Project name 7</a></h5>
-                                        <a href="/assets/img/portfolio/7.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="col-md-4 isotopeItem photography">
-                            <div class="portfolio-item">
-                                <div class="wow bounceIn">
-                                    <img src="/assets/img/portfolio/8.jpg" alt="" />
-                                </div>
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <h5><a href="#">Project name 8</a></h5>
-                                        <a href="/assets/img/portfolio/8.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="col-md-4 isotopeItem print">
-                            <div class="portfolio-item">
-                                <div class="wow rotateInDownRight">
-                                    <img src="/assets/img/portfolio/9.jpg" alt="" />
-                                </div>
-                                <div class="portfolio-desc align-center">
-                                    <div class="folio-info">
-                                        <h5><a href="#">Project name 9</a></h5>
-                                        <a href="/assets/img/portfolio/9.jpg" class="fancybox"><i class="fa fa-external-link fa-2x"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                </div>
-
-
-            </div>
-        </div>
-
-    </div>
-</section>
-<section id="parallax2" class="section parallax" data-stellar-background-ratio="0.5">
-    <div class="align-center pad-top40 pad-bot30">
-        <h4 class="color-white pad-top50">The middle of that asteroid field</h4>
-        <p class="color-white">We can repair any dings and scrapes to your spacecraft and support,Planning a time travel trip to the middle ages Feugiat accumsan Suspendisse eget Duis faucibus tempus pede pede augue pede.Dapibus mollis
-            dignissim suscipit porta justo nisl amet Nunc quis semper.</p>
-    </div>
-</section>
-
 <!-- contact -->
 <section id="section-contact" class="section appear clearfix">
     <div class="container">
-
         <div class="row mar-bot40">
             <div class="col-md-offset-3 col-md-6">
                 <div class="section-header">
@@ -752,21 +377,21 @@
             <div class="col-md-8 col-md-offset-2">
                 <div id="sendmessage">Your message has been sent. Thank you!</div>
                 <div id="errormessage"></div>
-                <form action="" method="post" role="form" class="contactForm">
+                <form action="#" method="post" role="form" class="contactForm">
                     <div class="form-group">
-                        <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                        <input type="text" name="name" required class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                         <div class="validation"></div>
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                        <input type="email" required class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
                         <div class="validation"></div>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <input type="text" required class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                         <div class="validation"></div>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                        <textarea class="form-control" required name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                         <div class="validation"></div>
                     </div>
 
@@ -778,6 +403,10 @@
 
     </div>
 </section>
+
+@include('layout.user-login')
+@include('layout.user-signup')
+
 
 <section id="footer" class="section footer">
     <div class="container">

@@ -35,4 +35,16 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
 
+    'facebook' => [
+        'client_id' => '1393784807406399',
+        'client_secret' => 'a510513e1ef6d093d9a14518a5abf4ef',
+        'redirect' => 'http://laraveltest.hamzatasneem.codexify.com/callback',
+    ],
+
+    'google' => [
+        'client_id' => '427945900076-mpmmfitoor5ffco697ha131d2tknlr4s.apps.googleusercontent.com',
+        'client_secret' => 'WzxeKmcE9jJPwA3xYELySjNH',
+        'redirect' => 'http://laraveltest.hamzatasneem.codexify.com/goolecallback',
+    ],
+
 ];

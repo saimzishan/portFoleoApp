@@ -20,3 +20,15 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/careerPortfolio', 'LoadController@index')->name('careerPortfolio');
+
+Route::post('/dousersignup','SiteUsersController@usersignup')->name('dousersignup');
+
+Route::post('/userLogin','SiteUsersController@doLogin')->name('userLogin');
+
+// social login
+Route::get('/redirect', 'SocialAuthController@redirect')->name('redirect');
+Route::get('/callback', 'SocialAuthController@callback')->name('callback');
+
+//goole +
+Route::get('/redirectt', 'SocialAuthController@redirectt')->name('redirectt');
+Route::get('/goolecallback', 'SocialAuthController@goolecallback')->name('goolecallback');
