@@ -435,10 +435,10 @@
         <div class="row animated opacity mar-bot0" data-andown="fadeIn" data-animation="animation">
             <div class="col-sm-12 align-center">
                 <ul class="social-network social-circle">
-                    <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
-                    <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-                    <li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-                    <li><a href="#" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="https://stackexchange.com/users/10854363/m-zishan" class="icoRss" title="Stack over flow"><i class="fa fa-stack-overflow"></i></a></li>
+                    <li><a href="https://facebook.com/saim.zishan" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://github.com/saimzishan" class="icoTwitter" title="Github"><i class="fa fa-github"></i></a></li>
+                    <li><a href="https://plus.google.com/u/0/111157539709999863539" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
                     <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
                 </ul>
             </div>
@@ -446,7 +446,7 @@
 
         <div class="row align-center copyright">
             <div class="col-sm-12">
-                <p>&copy; GREEN Theme</p>
+                <p>&copy; ZR Software solution</p>
                 <div class="credits">
                     <!--
                         All the links in the footer should remain intact.
@@ -454,7 +454,7 @@
                         Licensing information: https://bootstrapmade.com/license/
                         Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Green
                     -->
-                    <a href="https://bootstrapmade.com/">Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    <a href="#home">Portfolio app</a> by <a href="#">ZR Software solution</a>
                 </div>
             </div>
         </div>
@@ -481,9 +481,6 @@
 <script src="/assets/js/main.js"></script>
 <script src="/assets/js/wow.min.js"></script>
 <script>wow = new WOW({}).init();</script>
-<script src="/assets/contactform/contactform.js"></script>
-
-
 
 @include('layout.user-login')
 @include('layout.user-signup')
