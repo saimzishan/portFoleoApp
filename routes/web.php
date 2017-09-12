@@ -17,7 +17,7 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
 
 Route::get('/careerPortfolio', 'LoadController@index')->name('careerPortfolio');
 
@@ -29,6 +29,11 @@ Route::post('/userLogin','SiteUsersController@doLogin')->name('userLogin');
 Route::get('/redirect', 'SocialAuthController@redirect')->name('redirect');
 Route::get('/callback', 'SocialAuthController@callback')->name('callback');
 
-//goole +
+//google +
 Route::get('/redirectt', 'SocialAuthController@redirectt')->name('redirectt');
 Route::get('/goolecallback', 'SocialAuthController@goolecallback')->name('goolecallback');
+
+
+// after login user routes
+
+Route::get('/user', 'HomeController@index')->name('user');

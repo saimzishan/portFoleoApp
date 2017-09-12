@@ -22,10 +22,7 @@ class SocialAuthController extends Controller
     {
         $user = $service->createOrGetUser(Socialite::driver('facebook')->stateless()->user());
         auth()->login($user);
-        if(Auth::user()->role_id == 1 || Auth::user()->role_id == 2)
-            return redirect()->to('/')->with('message', 'You has been Login successfully!');
-        return view('select_account');
-
+        return redirect()->to('/')->with('message', 'You has been Login successfully!');
     }
 
 
@@ -37,15 +34,11 @@ class SocialAuthController extends Controller
 
     public function goolecallback(SocialAccountService $service)
     {
-
         //$user = Socialite::driver('google')->stateless()->user();
         $user = $service->createOrGetUserg(Socialite::driver('google')->user());
 
         auth()->login($user);
-
-        if(Auth::user()->role_id == 1 || Auth::user()->role_id == 2)
-            return redirect()->to('/')->with('message', 'You has been Login successfully!');
-        return view('select_account');
+        return redirect()->to('/')->with('message', 'You has been Login successfully!');
     }
 
     public function socialSignin(Request $request)
