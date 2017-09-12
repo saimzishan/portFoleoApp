@@ -834,12 +834,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </div>
 <!-- //contact -->
 
-<!-- map -->
-<div class="map">
-    <h3 data-aos="zoom-in" >Locate Me</h3>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.728658933401!2d-81.28171468446989!3d43.026098179147766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882eee436c9b672f%3A0xbb99862bef7c6ace!2s1680+Richmond+St%2C+London%2C+ON+N6G+3Y9%2C+Canada!5e0!3m2!1sen!2sin!4v1496125001525"></iframe>
-</div>
-<!-- //map -->
 
 <!-- copyright -->
 <div class="copyright-agile">
