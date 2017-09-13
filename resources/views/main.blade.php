@@ -312,20 +312,28 @@
                 <div class="row-slider">
                     <div class="col-lg-6 mar-bot30">
                         <div class="responsive-slider" data-spy="responsive-slider" data-autoplay="true">
-                            <div class="slides" data-group="slides">
-                                <ul>
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                <!-- Indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                                </ol>
 
-                                    <div class="slide-body" data-group="slide">
-                                        <li><img alt="" class="img-responsive" src="/assets/img/9.jpg" width="100%" height="350"/></li>
-                                        <li><img alt="" class="img-responsive" src="/assets/img/10.jpg" width="100%" height="350"/></li>
-                                        <li><img alt="" class="img-responsive" src="/assets/img/11.jpg" width="100%" height="350"/></li>
-                                        <li><img alt="" class="img-responsive" src="/assets/img/11.jpg" width="100%" height="350"/></li>
-
+                                <!-- Wrapper for slides -->
+                                <div class="carousel-inner">
+                                    <div class="item active">
+                                        <img src="/assets/img/110.jpg" alt="Los Angeles" style="width:100%; height: 300px" >
                                     </div>
-                                </ul>
-                                <a class="slider-control left" href="#" data-jump="prev"><i class="fa fa-angle-left fa-2x"></i></a>
-                                <a class="slider-control right" href="#" data-jump="next"><i class="fa fa-angle-right fa-2x"></i></a>
 
+                                    <div class="item">
+                                        <img src="/assets/img/111.jpg" alt="Chicago" style="width:100%;" height="350">
+                                    </div>
+
+                                    <div class="item">
+                                        <img src="/assets/img/112.jpg" alt="New york" style="width:100%;" height="350">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -436,7 +444,7 @@
             <div class="col-sm-12 align-center">
                 <ul class="social-network social-circle">
                     <li><a href="https://stackexchange.com/users/10854363/m-zishan" class="icoRss" title="Stack over flow"><i class="fa fa-stack-overflow"></i></a></li>
-                    <li><a href="https://facebook.com/saim.zishan" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://facebook.com/ZRsoftwaresolution" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="https://github.com/saimzishan" class="icoTwitter" title="Github"><i class="fa fa-github"></i></a></li>
                     <li><a href="https://plus.google.com/u/0/111157539709999863539" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
                     <li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
