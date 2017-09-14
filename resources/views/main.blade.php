@@ -73,7 +73,7 @@
 
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img src="/assets/img/1.jpg" class="img-responsive" alt="">
+                        <img src="/assets/img/m1.jpg" class="img-responsive" alt="">
                         <div class="carousel-caption">
                             <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
                                 <h2><span>Look at your skills</span></h2>
@@ -101,7 +101,7 @@
                     </div>
 
                     <div class="item">
-                        <img src="/assets/img/2.jpg" class="img-responsive" alt="">
+                        <img src="/assets/img/m3.jpg" class="img-responsive" alt="">
                         <div class="carousel-caption">
                             <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="1.0s">
                                 <h2>Choose items to show that showcase your skills</h2>
